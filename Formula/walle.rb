@@ -8,7 +8,7 @@ class Walle < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(output: bin/"walle"), "./..."
+    system "go", "build", *std_go_args(output: bin/"walle"), "."
 
     # 2. Create the second entrypoint (Symlink)
     # This tells Homebrew: "Create a symlink named 'wall-e' that points to 'walle'"
