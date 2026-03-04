@@ -1,8 +1,8 @@
 class Walle < Formula
   desc "a trash compactor for your code comments"
   homepage "https://github.com/kallepronk/wall-e"
-  url "https://github.com/kallepronk/wall-e/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "31dcbcea5e8b1828c8cc7b3cfdbaf4da46ae0921b6a047dc98070ede55cec172"
+  url "https://github.com/kallepronk/wall-e/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "a7e31048c22b424d92f2c781fbba1da8f706b81c2f3b0117002d969fc2b9917d"
   license "MIT"
 
   depends_on "go" => :build
